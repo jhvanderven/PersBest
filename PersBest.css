@@ -1,0 +1,147 @@
+/* CSS declarations go here */
+body, input, button, select, textarea, option{
+	font-family: verdana;
+	color:lightblue;
+}
+
+body{
+	font-size:23px;
+	background-color: black;
+}
+
+input,button,select{
+	font-size: 23px;
+}
+
+th{
+	font-style: italic;
+	color:grey;
+	background-color: #444;
+	border-bottom: 3px solid blue;
+}
+th>img{
+	background-color: #444;
+}
+td{
+	border-bottom: 1px solid lightblue;
+	color:lightblue;
+}
+
+.right{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.float{
+	float:right;
+	text-align: right;
+}
+h2{
+	color:lightblue;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size:40px;
+}
+
+.mouseChange{
+	cursor: pointer;
+}
+
+.mouseChange:hover{
+	background-color: #555;
+}
+
+.padding{
+	padding-top: 25px;	
+}
+.donotshow{
+	display:none;
+}
+
+td>img{
+	border:0px;
+}
+img{
+	background-color: black;
+	width:40px;
+	height:40px;
+	margin-right: 5px;
+}
+
+ul,li
+{
+    list-style-type: none;
+}
+
+.badWind{
+	background-color: red;
+}
+
+.firstEntry{
+	padding-top: 5px;
+}
+
+div>img{
+	vertical-align: top;
+}
+
+div>input{
+	vertical-align: top;
+}
+
+button{
+	border: 0; 
+	background: transparent;
+	display: inline;
+}
+
+label>input{
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */	
+}
+
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  background-color: lightblue;
+}
+
+label > input:hover + img{ /* (RADIO HOVER) IMAGE STYLES */
+  background-color: #555;
+}
+
+input{
+	display: inline;
+	color:blue;
+}
+
+input[type=radio]{
+	display: inline;
+}
+
+form{
+	border: 1px solid cyan;
+}
+
+.wide{
+	width: 90%;
+}
+
+.inlineImgLabel{
+	display:inline; /* make the div appear on the same line as the "overall" label*/
+}
+
+.pictureTaken{
+	width:160px;
+	height:120px;
+}
+
+.barchartxlabel{
+	color:white;
+}
+
+.barchartylabel{
+	color:white;
+}
