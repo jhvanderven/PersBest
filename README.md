@@ -11,6 +11,6 @@ The difficulty of the app was to get some sort of generic score where time, leng
 
 The next problem was entering those scores, specifically durations. momentjs was very valuable here.
 
-The app is live here: persbest.meteor.com
+The app is no longer live.
 
 Have fun.
